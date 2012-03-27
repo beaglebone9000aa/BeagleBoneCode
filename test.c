@@ -1,12 +1,21 @@
 #include<stdio.h>
  
-main()
+int main(int argc, char *argv[])
 {
    int n, i = 3, count, c;
- 
-   printf("Enter the number of prime numbers required\n");
-   scanf("%d",&n);
- 
+   if ( argc == 1 )
+   {
+      printf("!!! You did not enter a valid number !!! \n");
+      return 0;
+   }
+
+   n = atoi(argv[1]); 
+   //printf("Enter the number of prime numbers required\n");
+   //scanf("%d",&n);
+
+   printf("You enterned '%d' \n",n);
+   printf("-------------------------");
+
    if ( n >= 1 )
    {
       printf("First %d prime numbers are :\n",n);
