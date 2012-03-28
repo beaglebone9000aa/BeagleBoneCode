@@ -5,7 +5,10 @@ int main(int argc, char *argv[])
    int n, i = 3, count, c;
    if ( argc == 1 )
    {
-      printf("!!! You did not enter a valid number !!! \n");
+      printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
+      printf("!!! You did not enter a valid number as an argument !!! \n");
+      printf("!!!!!!!!!!!!!!!!!! Experimental !!!!!!!!!!!!!!!!!!!!!!!\n");
+      printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
       return 0;
    }
 
